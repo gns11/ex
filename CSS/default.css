@@ -1,0 +1,31 @@
+body{
+    background-color: cadetblue;
+}
+h1{
+    color: teal;
+    text-align: center;
+    font-size: 64px;
+    border-bottom: 5px solid pink;
+    margin: 0;
+}
+ol{
+    float: left;
+    width: 200px;
+}
+li{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-size: 20px;  
+}
+a{
+    color: snow;
+}
+div{
+    float: left;
+    width: 800px;
+    border-left: 5px solid pink;
+    padding-left: 50px;
+}
+img{
+    width: 65%;
+}
