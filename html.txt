@@ -1,0 +1,10 @@
+hn : h1~h6 제목
+p : 본문 문단
+br : 줄바꿈
+hr : 가로줄(가끔씀)
+strong : 강조
+sup : 위첨자
+sub : 아래첨자
+pre+code : 문자화
+entity코드 : 특수문자
+sapn : 스타일화
