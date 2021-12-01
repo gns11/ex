@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>world wide web</title>
+    <link rel="stylesheet" href="./default.css">
+</head>
+<body>
+    <h1>WEB</h1>
+    <button>
+        dark mode
+    </button>
+    <!-- <button onclick= "lightMode();">
+        light mode
+    </button> -->
+    <ol>
+        <li><a href="/HTML2.html">HTML</a></li>
+        <li><a href="./CSS2.html">CSS</a></li>
+        <li><a href="./javaScripti2.html">javaScript</a></li>
+    </ol>
+    <div>
+        <h2>HTML</h2>
+        <img src="./HTMLimg.jpg" alt="HTML이미지">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis inventore sapiente amet similique quo, tempora explicabo sit. Sed aliquam in, laborum ex deserunt, rerum nemo vero molestiae cum accusamus animi.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur ipsum perferendis hic dolores, earum quae laborum delectus quaerat maiores cum, iure accusantium esse recusandae incidunt omnis sint adipisci. Sunt, hic.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, incidunt sunt! Voluptates quidem voluptas, dicta obcaecati libero corrupti, quasi ad sed deleniti, in accusantium facilis voluptate impedit sequi possimus optio.
+        </p>
+    </div>
+    <script src="./jquery-3.6.0.js">
+    </script>
+    <script>
+        $('button').css({
+            'color': 'green',
+            'font-size':'36px'
+        });
+        // $('h1').css({
+        //     'background-color' : 'black',
+        //     'color' : 'white',
+        //     'font-size' : '100px'
+        // });
+        // let tit = document.querySelector('h1');
+        // tit.style.backgroundColor = 'black';
+        // tit.style.color = 'white';
+        // tit.style.fontSize = '100px';
+        $('img').css({
+            'width' : '50%',
+            'opacity' : 0.5
+        })
+    </script>
+    <script>
+        $('button').click(function(){
+            $('body').css({
+                'background-color' : 'black'
+            });
+            $('h1').css({
+                'border-bottom' : '5px solid white'
+            });
+            $('h1,ol,h2,p').css({
+                'color' : 'white'
+            });
+            $('a').css({
+                'color' : 'lightblue'
+            });
+        });
+    </script>
+</body>
+</html>
