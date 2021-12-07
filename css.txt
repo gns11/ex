@@ -6,3 +6,27 @@ prefix = 접두사
 폰트
 sans-serif : 고딕계열
 serif : 명조계열
+
+font계열
+font-family = 글꼴체
+font-weigth = 글꼴두께
+font-size = 글꼴크기
+font-style = 글꼴스타일
+line-heigth = 글꼴줄간격
+
+text스타일
+color = 텍스트색상(name, hex, rgb, rgba, hsl, hsla)
+text-decoration = 글자의 선(위, 중간, 아래)
+text-transform = 대소문자 변형(uppercase,lowercase,capitalize)
+text-shadow = 글자 그림자(x y blur color)
+white-space = 줄바꿈
+text-overflow(ellipsis) = 넘치는 글자
+letter-spacing = 글자사이 간격
+word-spacing = 단어사이 간격
+font-stretch = 장평(X)
+
+문단 스타일
+direction : 문단방향(ltr,rtl)
+text-align : 가로맞춤(left, right, center)
+text-indent : 들려쓰기/내여쓰기
+line-height : 줄간격
