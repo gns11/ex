@@ -30,3 +30,7 @@ direction : 문단방향(ltr,rtl)
 text-align : 가로맞춤(left, right, center)
 text-indent : 들려쓰기/내여쓰기
 line-height : 줄간격
+
+inline : 
+block
+inline-block : 배치는 inline으로 하고 block형태는 유지

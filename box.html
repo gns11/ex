@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box</title>
+    <style>
+        .box{
+            /* padding,margin: top right bottom left;  */
+           box-sizing: border-box;
+           width: 500px;
+           height: 500px;
+           margin: 20px 30px 40px 50px;
+           border-top: 10px solid #000;
+           border-right: 10px dotted #f00;
+           border-bottom: 30px dashed #0f0;
+           border-left: 50px double #00f;
+           padding: 20px 30px 40px 50px;
+           margin: 0 auto;
+           padding: 50px;
+           background: #f00 content-box;
+           border: 10px solid #000;
+        }
+        .box02{
+            box-sizing: border-box;
+            width: 100px;
+            height: 100px;
+            margin: 20px auto;
+            border-top: 50px solid transparent;
+            border-right: 50px solid #0f0;
+            border-bottom: 50px solid #0f0;
+            border-left: 50px solid #0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box02"></div>
+</body>
+</html>
