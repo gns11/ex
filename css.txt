@@ -35,3 +35,13 @@ box model
 inline : 가로, 다른 박스가 올 수 있다.
 block : 세로, 다른 박스가 올 수 없다.
 inline-block : 배치는 inline으로 하고 block형태는 유지
+
+position
+fixed
+relative
+absolrue
+sticky
+
+left,right,top,bottom - 좌표
+
+z-index
