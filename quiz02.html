@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .clearfix::after{
+            content: '';
+            display: block;
+            clear: both;
+        }
+        *{
+            box-sizing: border-box;
+            margin: 0 0;
+            padding: 0;
+        }
+        .wrap{
+            width: 1000px;
+            margin: 0 auto;
+        }
+        .header{
+            /* 레이아웃 */
+            /* 박스모델 */
+            /* 나머지 기타등등 */
+            padding: 20px;
+            background: #333;
+            font-weight: 700;
+            font-style: 32px;
+            color: #fff;
+        }
+        .main>*{
+            float: left;
+            padding: 20px;
+            height: 500px;
+        }
+        .main aside{
+            width: 25%;
+            background: #999;
+        }
+        .main .section{
+            width: 50%;
+            background: #aaa;
+        }
+        .footer{
+            padding: 10px; 
+            height: 50px;
+            background: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <header class="header">
+            사이트 제목
+        </header>
+        <main class="main">
+            <aside class="aside">
+                사이드바1
+            </aside>
+            <section class="section">
+                본문
+            </section>
+            <aside class="aside aside2">
+                사이드바2
+            </aside>
+        </main>
+        <footer class="footer clearfix">
+            주소
+        </footer>
+    </div>
+</body>
+</html>
