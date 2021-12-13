@@ -44,4 +44,11 @@ sticky
 
 left,right,top,bottom - 좌표
 
-z-index
+z-index - 보이는 순서
+
+변형(transform)
+rotate => rotate,rotateZ,{rotateY,rotateX(perspective)} 3D 
+tranalate=> tranalate,tranalateX,tranalateY,tranalateZ
+scale => scale(x,y),sclaeX,scaleY
+변형기준(transform-origin)
+변형시 반대편(backface-visibility)
