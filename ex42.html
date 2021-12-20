@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        .par-box{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 100px;
+            border: 10px solid #000;
+        }
+        .child-box{            
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #00f;
+            animation: ani1 4s 10 alternate 1s;
+        }
+        .child-box:hover{
+            animation-play-state: running;
+        }
+        @keyframes ani1 {
+            from{
+                left: 0;
+                top: 0;
+            }
+            25%{
+                left: calc(100% - 100%);
+                top: 0;
+            }
+            50%{
+                left: calc(100% - 100%);
+                top: calc(100% - 100%);
+            }
+            75%{
+                left: 0;
+                top: calc(100% - 100%);
+            }
+            to{
+                left: 0;
+                top: 0;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>animation2</h1>
+    <div class="par-box">
+        <div class="child-box"></div>
+    </div>
+</body>
+</html>

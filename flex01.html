@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            /* box-sizing: border-box; */
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            text-align: center;
+        }
+        .par-box{
+            width: 1200px;
+            margin: 0 auto;
+            border: 1px solid #000;
+            /* 플렉스 컨테이너 or  플렉서블 박스 */
+            display: flex;
+            /* 주축 가로 */
+            /* flex-direction: row; */
+            /* 주축 가로 꺼꾸로 */
+            /* flex-direction: row-reverse; */
+            /* 주축 세로 */
+            /* flex-direction: column; */
+            /* 주축 세로 꺼꾸로 */
+            /* flex-direction: columu-reverse; */
+            /* 플렉스 컨테이너 줄바꿈 허용여부 */
+            /* flex-wrap: nowrap; */
+            /* flex-wrap: wrap; */
+        }
+        .par-box{
+            height: 300px;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+        .child-box{
+            display: block;
+            width: 600px;
+            height: 150px;
+        }
+        .child-box01{
+            background-color: #f00;
+        }
+        .child-box02{
+            background-color: #0f0;
+        }
+        .child-box03{
+            background-color: #00f;
+        }
+    </style>
+</head>
+<body>
+    <h1>flex container</h1>
+    <div class="par-box">
+        <div class="child-box child-box01"></div>
+        <div class="child-box child-box02"></div>
+        <div class="child-box child-box03"></div>
+    </div>
+</body>
+</html>
